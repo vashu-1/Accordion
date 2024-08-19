@@ -1,0 +1,39 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper button {
+  padding: 15px;
+  border-radius: 7px;
+  color: #fff;
+  background-color: rgb(79, 35, 191);
+  margin-bottom: 30px;
+}
+.accordian {
+  width: 500px;
+}
+.item {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: rgb(79, 35, 191);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 16px 16px rgba(63, 60, 60, 0.5);
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.content {
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+  color: rgb(225, 228, 38);
+}
